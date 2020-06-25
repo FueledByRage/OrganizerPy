@@ -2,13 +2,13 @@ import os
 import shutil
 
 class Organizer:
-    def get_path(self, file):
+    def return_path(self, file):
         split_file = file.split('.')
         return 'Folder for ' + split_file[len(split_file) - 1]
 
 
     def move_file(self, file):
-        newFolder = self.get_path(file)
+        newFolder = self.return_path(file)
         if not os.path.exists(newFolder):
             os.makedirs(newFolder)
         shutil.move(file, newFolder + '/' + file)
