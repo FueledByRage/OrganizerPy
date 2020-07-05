@@ -24,3 +24,7 @@ pyinstaller organizer.py
 
 Copy and paste the exe file to the messy windows folder and run it
 
+or 
+
+[Add the application to the Windows Context Menu](https://lifehacker.com/add-any-application-to-the-windows-context-menu-1627589106)
+
